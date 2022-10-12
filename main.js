@@ -110,8 +110,6 @@ function marry(personObj1, personObj2) {
 
     personObj1.spouseName = `${personObj2.firstName} ${personObj2.lastName}`;
     personObj2.spouseName = `${personObj1.firstName} ${personObj1.lastName}`;
-
-    personObj2.lastName = personObj1.lastName;
 }
 
 // before marry
